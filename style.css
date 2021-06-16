@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+
+header {
+    display: flex;
+    height: 100px;
+    
+ /*    background: #874BFC; */
+    background-color: #FFCC99;
+}
+
+h1 {
+    font-size: 20px;
+      margin: 0 0 20px 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 600;
+  color: black;
+  text-transform: none;
+}
+
+body {
+    
+    height: 100%;
+    background-color: #3F97FE;
+}
+
+main {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.logo {
+    display: flex;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+.logPhoto {
+    width: 120px;
+    height: 120px;
+    margin-left: 5px;
+
+    background-position: 0 20px;
+    background-image: url("pics/40_main_l.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.sign {
+    padding: 15px;
+    font-family: 'Arial';
+    font-size: 20px;
+}
+
+.nav {
+    padding: 24px;
+    background-color: #FFCC99;
+    height: 50px;
+    width: 700px;
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    transition-duration: 0.6s;
+
+}
+
+li {
+    opacity: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-family: 'Century Gothic';
+    color: black;
+    transition-duration: 0.5s;
+}
+
+li:hover {
+    background: white;
+    color: #FFCC99;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.info {
+    
+    font-family: 'Arial';
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+h2{
+    padding-left: 15px;
+}
+
+#findVal {
+    height: 20px;
+    width: 300px;
+    margin-left: 15px;
+}
+
+a {
+    list-style: none;
+    border-bottom: 0px;
+    text-decoration: none;
+}
+
+.nado {
+    text-decoration: none;
+}
+
+.maxim {
+    position: relative;
+    width: 800px;
+    height: 400px;
+    display: flex;
+    overflow-x: scroll;
+    margin: 50px auto;
+}
+
+section {
+    display: flex;
+}
+
+a{
+    color: black;
+    border: 0px;
+}
+
+
+h3 {
+    padding: 10px;
+   background-color: #FFCC99;
+    color: black;
+    font-weight: bold;
+    font-size: 26px;
+    height: 270px;
+    width: 160px;
+    margin-top: 55px;
+    box-sizing: border-box;
+    border-left: solid 3px #FFCC99;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 100px;
+    vertical-align: middle;
+}
+
+.pic1 {
+    background-image: url(pics/car1.png);
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    background-size: 400px auto;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.pic2 {
+    background-image: url(pics/car2.png);
+    width: 300px;
+    height: 100%;
+    background-size: 400px auto;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.pic3 {
+    background-image: url(pics/She;by.png);
+    width: 300px;
+    height: 100%;
+    background-size: 400px auto;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.pic4 {
+    background-image: url(pics/car4.png);
+    width: 300px;
+    height: 100%;
+    background-size: 400px auto;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.pic5 {
+    background-image: url(pics/car5.png);
+    width: 300px;
+    height: 100%;
+    background-size: 400px auto;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+footer {
+    height: 100px;
+    color: grey;
+    background-color: #333333;
+    background-position: absolute;
+}
+
+.flexer {
+    display: flex;
+}
+
+.vk {
+    width: 50px;
+    height: 50px;
+    background-image: url("pics/vk.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 15px;
+}
+
+.inst {
+    width: 50px;
+    height: 50px;
+    background-image: url("pics/1200px-Instagram_icon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 15px;
+}
+
+.tg {
+    width: 50px;
+    height: 50px;
+    background-image: url("pics/Telegram_logo_icon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 15px;
+}
+
+.hello {
+    
+    font-family: ;
+    width: 1270px;
+    height: 1000px;
+    
+   
+}
+.hello2{
+    color: black;
+    background-color: #FFCC99;
+    border-radius: 15px;
+    height: 250px;
+}
+
+
+
+.h21{
+    color:white;
+    margin-left: 40%;
+}
+
+#carName {
+    width: 500px;
+}
+
+.addAuto {
+    margin-top: 15px;
+    padding-top: 15px;
+}
+
+.carDivElement{
+    width: 730px;
+    height: 800px;
+    border: solid 3px gray;
+    margin-left: 250px;
+    background-color: #FFCC99;
+    margin-bottom: 50px;
+    color: black;
+    font-size: 17.5px;
+    font-family: 'Noto Sans TC', sans-serif;
+    border-radius: 15px;
+    padding-left: 15px;
+}
+
+.carDiv1{
+    width: 730px;
+    height: 800px;
+    border: solid 3px gray;
+    margin-left: 250px;
+    background-color: #FFCC99;
+    margin-bottom: 50px;
+    color: black;
+    font-size: 17.5px;
+    font-family: 'Noto Sans TC', sans-serif;
+    border-radius: 15px;
+    padding-left: 15px;
+}
+
+
+.nameDivElement{
+    width: 500px;
+    height: 50px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.nameDiv1{
+    width: 500px;
+    height: 50px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.imgDivElement{
+    width: 600px;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.imgDiv1{
+    width: 600px;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("https://ru2.anyfad.com/items/t1@17b8a721-42dd-43b0-ab26-a2dba7431e44/Cadillac-1959-MillerMeteor-ECTO1-1984.jpg");
+}
+
+.imgDiv2{
+    width: 600px;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('pics/car1.png');
+}
+
+.imgDiv3{
+    width: 600px;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('pics/car2.png');
+}
+
+.imgDiv4{
+    width: 600px;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(pics/She;by.png);
+}
+
+.imgDiv5{
+    width: 600px;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('pics/car4.png');
+}
+
+.imgDiv6{
+    width: 600px;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('pics/car5.png');
+}
+
+#upBtn{
+        position: fixed;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #3dd;
+    font-size: 30px;
+    bottom: 100px;
+    right: 100px;
+    border-radius: 100%;
+    opacity: 0;
+    transition: opacity 1s;
+
+}
+
+h3{
+    transition-duration: 0.5s;
+}
+
+.pic1{transition-duration: 0.5s;}
+.pic2{transition-duration: 0.5s;}
+.pic3{transition-duration: 0.5s;}
+.pic4{transition-duration: 0.5s;}
+.pic5{transition-duration: 0.5s;}
+
+section:hover .pic1{ opacity: 70%;}
+section:hover .pic2{ opacity: 70%;}
+section:hover .pic3{ opacity: 70%;}
+section:hover .pic4{ opacity: 70%;}
+section:hover .pic5{ opacity: 70%;}
+
+
+section:hover h3{
+    background-color: #6EDCFF;
+}
+
+.logDiv{
+    margin-left: 40%;
+}
+
+p{
+    color: black;
+}
+
+.foot{
+    color: white;
+}
